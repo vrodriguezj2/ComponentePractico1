@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap');
+
+.main-footer {
+  font-family: 'DM Sans', sans-serif;
+  background: #ffffff;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.5rem 1.25rem;
+}
+
+.footer-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  padding-bottom: 1.5rem;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.brand-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.brand-name .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #1D9E75;
+  display: inline-block;
+}
+
+.brand-sub {
+  font-size: 13px;
+  color: #888;
+}
+
+.footer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  background: #E1F5EE;
+  color: #0F6E56;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #1D9E75;
+  display: inline-block;
+}
+
+.footer-bottom {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: #888;
+}
+
+.footer-copy strong {
+  font-weight: 500;
+  color: #111;
+}
+
+.footer-unemi {
+  font-size: 12px;
+  color: #888;
+}
+
+@media (max-width: 640px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
