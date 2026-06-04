@@ -10,7 +10,7 @@ function Home() {
         <Card
           icono="👤"
           titulo="Sobre mí"
-          descripcion="Me llamo Víctor Rodríguez, tengo 19 años y soy de Milagro, Ecuador."
+          descripcion="Me llamo Víctor Rodríguez Jara, tengo 19 años y soy de Milagro, Ecuador."
           tags={['Milagro', 'Ecuador']}
         />
 

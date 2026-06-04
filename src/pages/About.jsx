@@ -10,7 +10,7 @@ function About() {
         className="about-avatar"
       />
 
-      <h1 className="about-nombre">Víctor Rodríguez</h1>
+      <h1 className="about-nombre">Víctor Rodríguez Jara </h1>
       <p className="about-rol">Ingeniería en Sistemas · UNEMI</p>
 
       <div className="about-divider" />
