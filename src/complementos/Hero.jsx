@@ -1,35 +1,41 @@
-import { Link } from 'react-router-dom';
-import './Hero.css';
+import { Link } from "react-router-dom";
+import "./Hero.css";
+import fotoVictor from "../assets/imagen-victor.jpeg";
 
 function Hero() {
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <span className="hero-badge">Proyecto React · UNEMI</span>
+        <span className="hero-badge">Landing Page · React + Vite</span>
 
         <h1 className="hero-title">
-          Mi primera landing page con React
+          Explorando el desarrollo web con React
         </h1>
 
         <p className="hero-text">
-          Soy Víctor Rodríguez, estudiante de Ingeniería en Software. 
-          Esta página fue desarrollada usando componentes, rutas, eventos 
-          y estilos personalizados con React.
+          Esta landing page fue creada para demostrar el uso de componentes,
+          rutas, eventos y estilos personalizados. El proyecto muestra cómo
+          React permite construir interfaces modernas, organizadas y dinámicas.
         </p>
 
         <div className="hero-actions">
           <Link to="/About" className="hero-btn primary">
-            Ver información
+            Conocer más
           </Link>
 
           <a href="#cards" className="hero-btn secondary">
-            Ver tarjetas
+            Explorar secciones
           </a>
         </div>
       </div>
 
       <div className="hero-visual">
-        <div className="hero-avatar">VR</div>
+        <img
+          src={fotoVictor}
+          alt="Foto de Víctor Rodríguez"
+          className="hero-photo"
+        />
+
         <p>React · JavaScript · CSS</p>
       </div>
     </section>

@@ -11,7 +11,7 @@ function Navbar() {
       <nav className="main-nav">
         <Link to="/" className="nav-brand">
           <span className="dot" />
-          My First landing page
+          My First Landing Page
         </Link>
 
         <div className="nav-links">

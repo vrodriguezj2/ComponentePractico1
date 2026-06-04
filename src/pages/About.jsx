@@ -1,9 +1,14 @@
 import './About.css';
+import imagenvictor from '../assets/imagen-victor.jpeg';
 function About() {
   return (
-    
+
     <div className="about-page">
-      <div className="about-avatar">VR</div>
+      <img
+        src={imagenvictor}
+        alt="Foto de Víctor Rodríguez"
+        className="about-avatar"
+      />
 
       <h1 className="about-nombre">Víctor Rodríguez</h1>
       <p className="about-rol">Ingeniería en Sistemas · UNEMI</p>
