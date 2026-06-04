@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+.hero-section {
+  font-family: 'DM Sans', sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  align-items: center;
+  gap: 2rem;
+  text-align: left;
+}
+
+.hero-badge {
+  display: inline-flex;
+  background: #E1F5EE;
+  color: #0F6E56;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 42px;
+  line-height: 1.1;
+  color: #111;
+  margin: 0 0 1rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.hero-text {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.8;
+  max-width: 560px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  transition: transform 0.15s, background 0.15s;
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+}
+
+.hero-btn.primary {
+  background: #1D9E75;
+  color: #fff;
+}
+
+.hero-btn.secondary {
+  background: #f5f5f5;
+  color: #111;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.hero-visual {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #E1F5EE;
+  color: #0F6E56;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-visual p {
+  font-size: 13px;
+  color: #666;
+}
+
+@media (max-width: 760px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+  .hero-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+}
